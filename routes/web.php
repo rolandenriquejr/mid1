@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::resource('customers', 'CustomerController', ['except' => ['create', 'show']]);
 Route::resource('orders', 'OrderController', ['except' => ['create', 'show']]);
 Route::resource('items', 'ItemController', ['except' => ['create', 'show']]);
+
+//punyeta this
